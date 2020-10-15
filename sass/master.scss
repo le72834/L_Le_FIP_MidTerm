@@ -1,0 +1,15 @@
+@import 'modules/_vars.scss';
+@import 'modules/_mediaqueries.scss';
+
+//mixin go here;it will work if put this before all the file
+@import 'modules/_mixins.scss';
+
+//main rules go here
+@import 'modules/_main.scss';
+@import 'modules/_header.scss';
+@import 'modules/_nav.scss';
+@import 'modules/_heroimages.scss';
+@import 'modules/_info.scss';
+@import 'modules/_portfolio.scss';
+@import 'modules/_services.scss';
+@import 'modules/_footer.scss';

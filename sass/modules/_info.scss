@@ -1,0 +1,26 @@
+.textInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    h3 {
+        text-transform: uppercase;
+        color: #a55e3f;
+    }
+}
+.info1 {
+    h3 {
+        font-size: 25px;
+}
+    p {
+    font-style: italic;
+    color: #a55e3f;
+    width: 400px;
+}
+}
+.info2, .info3 {
+    margin-top: 5px;;
+    p {
+        width: 250px;;
+        font-size: 14px;;
+    }
+}

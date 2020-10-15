@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my portfolio website</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <div class="siteContainer">
+        <header id="mainHeader">
+            <nav class="mainNav">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/Logo.png" alt="Logo">
+                    </a>
+                </div><!-- Close logo-->
+                <input class="menu-btn" type="checkbox" id ="menu-btn">
+                <label class ="menu-icon" for="menu-btn">
+                    <span class="navicon"></span>
+                </label>
+                <h2 class=hidden>Main Navigation</h2>
+                <ul class="menu">
+                    <li><a href="#" class="current">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </nav><!-- Close mainNav-->
+
+
+        </header><!-- Close mainHeader-->
+        <main>
+            <section class="heroImage">
+                <h2>Hello, my name is Linh Le.</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="#">View more</a>
+            </section><!-- Close heroImage-->
+            <section class="textInfo">
+                <div class="info1">
+                    <h3>About me</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+
+                </div><!--Close info1-->
+                <div class="info2">
+                    <h3>New ideas</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+
+                </div><!--Close info2-->
+                <div class="info3">
+                    <h3>Creative spirit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                </div><!--Close info3-->
+            </section><!-- Close textInfo-->
+            <section class="galleryCon">
+                <div class="portfolio">
+                    <div id="project1" class="portfolio-project">
+                        <img src="images/strawberry.jpg" alt="strawberry">
+                    </div>
+                    <div id="project2" class="portfolio-project">
+                        <img src="images/books.jpg" alt="books">
+                    </div>
+                    <div id="project3" class="portfolio-project">
+                        <img src="images/things.jpg" alt="things">
+                    </div>
+                    <div id="project4" class="portfolio-project">
+                        <img src="images/rollercoaster.jpg" alt="roller coaster">
+                    </div>
+                    <div id="project5" class="portfolio-project">
+                        <img src="images/house.jpg" alt="house">
+                    </div>
+                    <div id="project6" class="portfolio-project">
+                        <img src="images/night.jpg" alt="night">
+                    </div>
+
+                </div><!-- Close portfolio-->
+
+            </section><!--Close gallery-->
+            <!-- Put our lightbox on the top of the stack-->
+            <section class="lightbox">
+                <h2 class="hidden">Project LightBox</h2>
+                <div class="lightbox-scroll-con">
+                    <span class="close-button">X</span>
+                    <div class="lightbox-content">
+                        <div class="project-info"></div><!--Close project info-->
+                        <div class="project-content"></div><!-- Close project content-->
+                    </div><!--Close lightbox content-->
+                </div><!--Close lightbox scroll con-->
+                
+            </section><!--Close lightbox-->
+
+            <template id="project-template">
+                <div class="proj">
+                    <h1 class="hidden"></h1>
+                    <h2 class="proj-name"></h2>
+                    <p class="proj-software"></p>
+                    <p class="proj-madeby"></p>
+                </div>
+            </template>
+
+            <section class="servicesCon">
+                <h3>Services</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            </section><!--Close services-->
+            <div class="serContainer">
+            <div class="ser-img">
+                <img src="images/machine.jpg" alt="machine">
+            </div>
+            <div class="ser-info">
+                <div class="ser-content1">
+                    <h3>Creative design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                </div><!--Close ser-content1-->
+                <div class="ser-content2">
+                    <h3>User Interface</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                </div><!--Close ser content2-->
+                <div class="ser-content3">
+                    <h3>User Experience</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                </div><!-- Close ser-content3-->
+                <div class="ser-content4">
+                    <h3>Coding</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                </div><!--Close ser-content4-->
+                </div><!--Close serContainer-->
+            </div><!--Close service info-->
+            <section class="resume">
+                <h4>Work with me!</h4>
+                <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                <a href="#">Download my resume</a>
+            </section><!-- Close resume-->
+
+            <footer class="mainFooter">
+                Copyright 2020
+            </footer><!--Close mainFooter-->
+
+        </main><!-- Close main-->
+
+    </div><!-- Close siteContainer-->
+    
+    <!--script go here-->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

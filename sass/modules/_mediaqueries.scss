@@ -1,0 +1,17 @@
+// Desktop version for navigation
+@media  screen and (min-width: 938px) {
+    .mainNav ul li {
+        float: left;
+        a {
+            padding: 20px;
+        }
+    }
+    .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .menu-icon {
+        display: none;
+    }
+}
