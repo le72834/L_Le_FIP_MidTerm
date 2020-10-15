@@ -1,0 +1,41 @@
+.heroImage {
+    background-image: url(../images/hero_image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 350px;
+    h2 {
+        font-size: 28px;
+        color: $second-text-color;
+        position: absolute;
+        left: 5%;
+        top: 240px;
+    }
+    p {
+        width: 300px;
+        position: absolute;
+        top: 290px;
+        left: 5%;
+        color: $second-text-color;
+       
+        
+    }
+    a {
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 12px;
+        color: $second-text-color;
+        font-size: 15px;
+
+        @include border-radius(7px);
+        position: absolute;
+        top: 360px;
+        left: 5%;
+        background-color: #bb8888;
+        &:hover {
+            background-color: #deb1b1;
+        }
+
+    }
+   
+}
