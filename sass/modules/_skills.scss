@@ -1,0 +1,37 @@
+.skills {
+    margin: 30px;
+    h3 {
+        text-transform: uppercase;
+        color: $primary-text-color;
+        margin-bottom: 20px;;
+        text-align: center;
+    }
+}
+.codeCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $primary-text-color;
+    text-transform: uppercase;
+    border-width: 3px;
+    border-style: solid;
+    border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66));
+    border-image-slice: 1;
+    padding: 20px;
+
+
+    h3 {
+        margin-top: 150px;
+    }
+    .codeInfoCon {
+        width: 600px;
+        margin-right: 100px;
+        display: block;
+    
+    }
+    hr {
+        height: 3px;
+        background-color: yellowgreen;
+        border: none;
+    }
+}

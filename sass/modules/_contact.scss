@@ -1,0 +1,43 @@
+.contactText {
+    h3 {
+        color: $primary-text-color;
+        text-transform: uppercase;
+        text-align: center;
+       
+    }
+    p {
+    width: 500px;
+    margin-left: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+}
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 300px;
+    input {
+    border: 2px solid #a55e3f;
+    padding: 10px;
+    
+    }
+    textarea {
+        border: 2px solid #a55e3f;
+        
+
+    }
+    label {
+        color: $primary-text-color;
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+}
+#submit {
+    margin-top: 10px;
+    color: #FFF;
+    background-color:  #a55e3f;
+}
+.comments {
+    margin-top: 20px;
+}
