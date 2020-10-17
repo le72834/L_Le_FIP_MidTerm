@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my portfolio website</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <div class="siteContainer">
+        <header id="mainHeader">
+            <nav class="mainNav">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/Logo.png" alt="Logo">
+                    </a>
+                </div><!-- Close logo-->
+                <input class="menu-btn" type="checkbox" id ="menu-btn">
+                <label class ="menu-icon" for="menu-btn">
+                    <span class="navicon"></span>
+                </label>
+                <h2 class=hidden>Main Navigation</h2>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Portfolio</a></li>
+                    <li><a href="#"class="current">Contact</a></li>
+                </ul>
+
+            </nav><!-- Close mainNav-->
+
+
+        </header><!-- Close mainHeader-->
+        <main>
+            <section class="heroImage3">
+                <h2>Let's work together!</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </section><!-- Close heroImage-->
+            <section class="textProject">
+                
+                <h3>About me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+
+            
+            </section><!--Close textinfo-->
+            <section class="skills">
+                <h3>skills</h3>
+                <div class="codeCon">
+                    <h3>Code</h3>
+                    <div class="codeInfoCon">
+                        <div class="codeInfo1">
+                        <h4>HTML5</h4>
+                        <h5>90%</h5>
+                        <hr>
+                        
+                        </div><!--Close codeInfo1-->
+                        <div class="codeInfo2">
+                            <h4>CSS/SASS</h4>
+                            <h5>80%</h5>
+                            <hr>
+                            
+                            </div><!--Close codeInfo2-->
+                            <div class="codeInfo3">
+                                <h4>Javascript</h4>
+                                <h5>65%</h5>
+                                <hr>
+                                
+                                </div><!--Close codeInfo2-->
+                                <div class="codeInfo4">
+                                    <h4>PHP & Mysql</h4>
+                                    <h5>73%</h5>
+                                    <hr>
+                                    
+                                    </div><!--Close codeInfo2-->
+                        
+                    </div><!--codeInfo-->
+
+                </div><!--Close codeCon-->
+            </section><!--Close skills-->
+            <section class="contactInfo">
+                <div class="contactText">
+                    <h3>Contact</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                </div><!--Close contactText-->
+                <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name</label>
+                    <input type="text required" id="name" name="fullName" size="30" placeholder="Name"><br><br>
+                    <label for="email">Email</label>
+                    <input type="email" required id="email" size="30" placeholder="Email Address"><br><br>
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" size="30" placeholder="Subject">
+                    <label for="comments" class="comments">Comments</label>
+                    <textarea name="comments" id="comments" cols="50" rows="10"></textarea>
+                    <input id="submit" type="submit" value="SUBMIT">
+                </form>
+
+            </section><!--Close contactInfo-->
+
+
+            <footer class="mainFooter">
+                Copyright 2020
+            </footer><!--Close mainFooter-->
+
+        </main><!-- Close main-->
+
+    </div><!-- Close siteContainer-->
+    
+    <!--script go here-->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

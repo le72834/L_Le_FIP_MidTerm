@@ -39,3 +39,13 @@
     }
    
 }
+.heroImage2 {
+    background-image: url(../images/hero_image_gallery.jpg);
+    @extend .heroImage;
+    
+}
+.heroImage3 {
+    background-image: url(../images/hero_image_contact.jpg);
+    @extend .heroImage;
+    
+}

@@ -1,5 +1,5 @@
 //import file
-import Project from "./modules/DataModule.js";
+//import Project from "./modules/DataModule.js";
 
 
 (() => {
@@ -12,6 +12,10 @@ import Project from "./modules/DataModule.js";
 
 
     //function go in the middle 
+    //this is about the lightbox
+    //click on any picture from the portfolio gallery then the lightbox appear
+    //inside the lightbox will be detail about the project like software, teamwork, what it about 
+    // the lightbox can scroll down
     function showLightBox() {
         debugger;
         lightBox.classList.add("show-lightbox");
@@ -35,6 +39,17 @@ import Project from "./modules/DataModule.js";
 
         }
     }
+
+    //make an AJAX request using the Fetch API
+    fetch('./data/infoData.json')
+    .then(res => res.json())
+    .then(data => {
+        debugger;
+        console.log(data);
+    })
+    .catch ((err) => {
+        console.log(err);
+    })
 
     //event handling for project
     projectButtons.forEach(button => button.addEventListener("click", showLightBox));
