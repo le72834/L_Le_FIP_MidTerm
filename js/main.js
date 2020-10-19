@@ -14,16 +14,21 @@
     //function go in the middle 
     //this is about the lightbox
     //click on any picture from the portfolio gallery then the lightbox appear
-    //inside the lightbox will be detail about the project like software, teamwork, what it about 
+    //inside the lightbox will be detail about the project like software, teamwork, what the project about..etc.
     // the lightbox can scroll down
     function showLightBox() {
         debugger;
         lightBox.classList.add("show-lightbox");
     }
+    //function scrollTopLightBox() {
+        //TweenMax.to(lightBoxScroll, 1,{scrollTo: 0});
+    //}
 
     function hideLightBox() {
         lightBox.classList.remove("show-lightbox");
     }
+
+
     function handleDataSet(data) {
         debugger;
         for (let project in data) {
@@ -40,6 +45,8 @@
         }
     }
 
+    //lightBox.querySelector('.project-title').innerHTML = portfolio['Title'];
+    //lightBox.querySelector('.project-info').innerHTML = portfolio['Info'];
     //make an AJAX request using the Fetch API
     fetch('./data/infoData.json')
     .then(res => res.json())
@@ -56,3 +63,9 @@
     closeButton.addEventListener('click',hideLightBox);
 
 })();
+/* Description of the gallery:
+When the user click any pictures of project, the light box will show up, inside the light box will contain logo, navigation, softwares, description about the project. Then the user can scroll down to see picture about the project. On the top of the light box will have close button.*/
+
+/* Description of data retrieval stategy for portfolio pieces
+Create data and put it in data folder, each data will contain each piece of portfolio works, using fetch load the data, ans catch some error.
+*/
