@@ -10,7 +10,7 @@ My name is Linh Le and this is my portfolio.
 - PHP
 - MySQL
 
-Clone this ti the location of your choice, open in your favourite editor!
+Clone this to the location of your choice, open in your favourite editor!
 ### Prerequisites
 Just an editor and Git!
 
